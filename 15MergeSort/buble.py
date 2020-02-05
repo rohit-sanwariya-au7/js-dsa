@@ -1,8 +1,4 @@
-def swap(x,y):
-    print(x,y)
-    x,y=y,x
-    print(x,y)
-    
+
 def buble(testlist):
     for i in range(len(testlist),0,-1):
         for j in range(0,i-1,1):
