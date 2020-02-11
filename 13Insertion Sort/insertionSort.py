@@ -7,7 +7,9 @@ def insertSort(array):
         while(j>=0 and array[j]>current):
             array[j+1]=array[j] #bhen chod jab tak array[j]>array[j+1]
             #swap karo matlab piche se ka ek pakad ke age walon se compare
-            #karo har jo bada ho use swa
+            #karo har jo bada ho use swap
+            print("sub loop array")
+            print(array)
             j-=1
         array[j+1]=current
         
