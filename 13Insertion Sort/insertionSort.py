@@ -9,7 +9,7 @@ def insertSort(array):
             #swap karo matlab piche se ka ek pakad ke age walon se compare
             #karo har jo bada ho use swap
             print("sub loop array")
-            print(array,i,j,current)
+            print(array,"i=",i,"j=",j,"current =",current)
             j-=1
         array[j+1]=current
         
